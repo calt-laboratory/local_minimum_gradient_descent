@@ -114,19 +114,3 @@ class GradientDescent(GraphicsTwoDim, GraphicsThreeDim):
             #print(x_local_min_list)
 
         return self.x_local_min_list, self.y_local_min_list
-
-
-
-
-
-gd = GradientDescent()
-gd.fit()
-gd.plot3d()
-
-
-
-
-
-
-
-
